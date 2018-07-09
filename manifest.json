@@ -1,0 +1,24 @@
+{
+	"name": "Jandan Night Mode",
+	"version": "1.0",
+	"description": "煎蛋夜晚阅读模式，黑色主题，看女装colt也不怕瞎眼了",
+	"manifest_version": 2,
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"page_action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"16": "icons/icon16.png",
+			"32": "icons/icon32.png",
+			"48": "icons/icon48.png",
+			"128": "icons/icon128.png"
+		}
+	},
+	"content_scripts": [{
+		"css": ["css/jandan.css"],
+		"matches": ["*://jandan.net/*"]
+	}],
+	"web_accessible_resources": ["images/logo-2015-night.gif"]
+}

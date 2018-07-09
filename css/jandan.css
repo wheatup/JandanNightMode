@@ -1,0 +1,138 @@
+/* 首页部分 */
+body, html{
+	background: none !important;
+}
+
+body{
+	background-color: #333 !important;
+}
+
+#body, #sidebar #float{
+	border-color: #444 !important;
+	background: none !important;
+}
+
+/*输入框*/
+#content .title, #content .f, #sidebar form input, #commentform textarea, #content ol, .comments{
+	background-color: #222 !important;
+	border-color: #444 !important;
+	border-bottom-color: #444 !important;
+	color: #999 !important;
+}
+
+a, a:link, a:visited{
+	color: #aaa !important;
+}
+
+.hot-tabs .current-tab{
+	background-color: #666 !important;
+}
+
+
+#sidebar form, #content .title{
+	background-color: #333 !important;
+	border-bottom-color: #444 !important;
+}
+
+/*带边框的玩意儿*/
+#sidebar ul, .hot-tabs li, .hot-tabs li, #footer, .commentlist .row, .cp-pagenavi, .cp-pagenavi .current-comment-page, #commentform textarea, #commentform #submit, #sidebar ol, .hot-tabs, .hot-tabs .hot-tab{
+	border-color: #444 !important;
+}
+
+.host-list-split{
+	background-color: #444 !important;
+}
+
+.acv_author, .acv_comment, p{
+	background-color: #333 !important;
+}
+
+.acv_author a{
+	color: #777 !important;
+}
+
+p{
+	color: #999 !important;
+}
+
+#content .title a{
+	color: #999 !important;
+}
+
+/*文本专用*/
+#content .post .indexs, #sidebar li a, #content .post .indexs{
+	color: #aaa !important;
+}
+
+/*文章链接*/
+#content .post h1 a, .post h2 a{
+	color: #f86 !important;
+}
+
+/*链接悬停*/
+.post h2 a:hover, #sidebar li a:hover{
+	color: #9af !important;
+}
+
+.hot-tabs li, .hot-tabs li{
+	color: #ccc !important;
+}
+
+.hot-tabs .current, .hot-tabs li.current{
+	background-color: #444 !important;
+	color: #ccc !important;
+}
+
+/*翻页按钮*/
+.cp-pagenavi a, #commentform #submit{
+	background-color: #555 !important;
+	color: #aaa !important;
+}
+
+.jandan-vote a.like, .tucao-vote a.like{
+	color: #c55 !important;
+}
+
+.jandan-vote a.unlike, .tucao-vote a.unlike{
+	color: #55c !important;
+}
+
+#nav_top{
+	color: #333 !important;
+	background-color: #666 !important;
+}
+
+#nav_next a, #nav_prev a{
+	color: #666 !important;
+}
+
+.wp-pagenavi a{
+	background-color: #444 !important;
+	color: #bbb !important;
+}
+
+#content .post p{
+	background: none !important;
+}
+
+#content .post p a, #content .post p a:link, #content .post p a:visited, strong, b{
+	color: #ccc !important;
+	border-bottom: none !important;
+	text-decoration: none !important;
+}
+
+.orange-name, .orange-name a{
+	color: #f75 !important;
+}
+
+.blue-name, .blue-name a{
+	color: #57f !important;
+}
+
+#content p{
+	background: none !important;
+}
+
+#header .logo h1 a{
+	background: url("chrome-extension://dkphdimoanblpbldfaojfefadoipmhjm/images/logo-2015-night.gif") no-repeat scroll 0 0 transparent !important;
+}
