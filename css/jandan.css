@@ -35,7 +35,7 @@ a, a:link, a:visited{
 }
 
 /*带边框的玩意儿*/
-#sidebar ul, .hot-tabs li, .hot-tabs li, #footer, .commentlist .row, .cp-pagenavi, .cp-pagenavi .current-comment-page, #commentform textarea, #commentform #submit, #sidebar ol, .hot-tabs, .hot-tabs .hot-tab{
+#sidebar ul, .hot-tabs li, .hot-tabs li, #footer, .commentlist .row, .cp-pagenavi, .cp-pagenavi .current-comment-page, #commentform textarea, #commentform #submit, #sidebar ol, .hot-tabs, .hot-tabs .hot-tab, #content .post h1, #sidebar .s_related li{
 	border-color: #444 !important;
 }
 
@@ -65,7 +65,7 @@ p{
 }
 
 /*文章链接*/
-#content .post h1 a, .post h2 a{
+#content .post h1 a, .post h2 a, #sidebar .s_title{
 	color: #f86 !important;
 }
 
@@ -135,4 +135,18 @@ p{
 
 #header .logo h1 a{
 	background: url("chrome-extension://jofbkojlngeibijcefbcaidbeiefbclj/images/logo-2015-night.gif") no-repeat scroll 0 0 transparent !important;
+}
+
+#content .post blockquote {
+	background-color: #333 !important;
+    border-left: 5px solid #555 !important;
+}
+
+.star-rating.flat .total_votes{
+	color: #ddd !important;
+	background-color: #974 !important;
+}
+
+.post a.jandan-zan{
+	background-color: #56a !important;
 }
