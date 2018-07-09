@@ -29,7 +29,7 @@ a, a:link, a:visited{
 }
 
 
-#sidebar form, #content .title{
+#sidebar form, #content .title, .tucao-hot-title, .tucao-row{
 	background-color: #333 !important;
 	border-bottom-color: #444 !important;
 }
@@ -38,7 +38,7 @@ a, a:link, a:visited{
 #sidebar ul, .hot-tabs li, .hot-tabs li, #footer, .commentlist .row, .cp-pagenavi, 
 .cp-pagenavi .current-comment-page, #commentform textarea, #commentform #submit, #sidebar ol, 
 .hot-tabs, .hot-tabs .hot-tab, #content .post h1, #sidebar .s_related li, .jandan-tucao,
-.tucao-form button, .commentlist .row {
+.tucao-form button, .commentlist .row, .tucao-row, .jandan-tucao, .tucao-hot, .tucao-form button{
 	border-color: #444 !important;
 }
 
@@ -50,11 +50,11 @@ a, a:link, a:visited{
 	background-color: #333 !important;
 }
 
-.acv_author a{
+.acv_author a, span.tucao-id{
 	color: #777 !important;
 }
 
-p{
+p, .tucao-hot-title{
 	color: #999 !important;
 }
 
@@ -124,7 +124,7 @@ p{
 	text-decoration: none !important;
 }
 
-.orange-name, .orange-name a{
+.orange-name, .orange-name a, .tucao-tip-author{
 	color: #f75 !important;
 }
 
