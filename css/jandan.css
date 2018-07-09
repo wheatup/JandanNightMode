@@ -13,7 +13,7 @@ body{
 }
 
 /*输入框*/
-#content .title, #content .f, #sidebar form input, #commentform textarea, #content ol, .comments{
+#content .title, #content .f, #sidebar form input, #commentform textarea, #content ol, .comments, .tucao-form input, .tucao-form textarea{
 	background-color: #222 !important;
 	border-color: #444 !important;
 	border-bottom-color: #444 !important;
@@ -35,7 +35,10 @@ a, a:link, a:visited{
 }
 
 /*带边框的玩意儿*/
-#sidebar ul, .hot-tabs li, .hot-tabs li, #footer, .commentlist .row, .cp-pagenavi, .cp-pagenavi .current-comment-page, #commentform textarea, #commentform #submit, #sidebar ol, .hot-tabs, .hot-tabs .hot-tab, #content .post h1, #sidebar .s_related li{
+#sidebar ul, .hot-tabs li, .hot-tabs li, #footer, .commentlist .row, .cp-pagenavi, 
+.cp-pagenavi .current-comment-page, #commentform textarea, #commentform #submit, #sidebar ol, 
+.hot-tabs, .hot-tabs .hot-tab, #content .post h1, #sidebar .s_related li, .jandan-tucao,
+.tucao-form button, .commentlist .row {
 	border-color: #444 !important;
 }
 
@@ -84,7 +87,7 @@ p{
 }
 
 /*翻页按钮*/
-.cp-pagenavi a, #commentform #submit{
+.cp-pagenavi a, #commentform #submit, .tucao-form button{
 	background-color: #555 !important;
 	color: #aaa !important;
 }
