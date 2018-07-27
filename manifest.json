@@ -1,7 +1,7 @@
 {
 	"name": "Jandan Night Mode",
-	"version": "1.2.4",
-	"description": "煎蛋夜晚阅读模式，黑色主题，看女装colt也不怕瞎眼了",
+	"version": "1.2.5",
+	"description": "煎蛋夜晚阅读模式，黑色主题，为蛋友的视力保驾护航",
 	"manifest_version": 2,
 	"background": {
 		"scripts": ["background.js"],
