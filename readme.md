@@ -8,7 +8,7 @@ Jandan Night Mode
 
 ## 离线安装方法
 
-* 下载[JandanNightMode1.2.4.crx](https://github.com/wheatup/JandanNightMode/raw/master/JandanNightMode1.2.4.crx)文件
+* 下载[JandanNightMode1.2.5.crx](https://github.com/wheatup/JandanNightMode/raw/master/JandanNightMode1.2.5.crx)文件
 * 打开chrome
 * 在地址栏中输入
 ```
